@@ -5,24 +5,75 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Contactenos</title>
 	<link rel="stylesheet" type="text/css" href="CSS/estilos-conntactenos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/12a593ad7a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
 </head>
 <body>
-	<header>
-		<nav class="menu">
-			<ul class="menu_items">
-				<span class="btn_menu"><i class="fa fa-bars"></i>
-				</span>
-				<li><a  class="active" href="../index.html">INICIO</a></li>
-				<li><a href="menu.html"> MENÚ</a></li>
-				<li><a href="servicios.html"> SERVICIOS</a></li>
-				<li><a href="pedidos.html"> PEDIDOS</a></li>
-				<li><a href="reservacion.html"> RESERVACIÓN</a></li>
-				<li><a href="nosotros.html"> NOSOTROS</a></li>
-				<li><a  href="contactenos.html"> CONTACTENOS </a></li>
-			</ul>
+	
+  <main>
+    <h1 class="text-center">FORMULARIO DE CONTACTO</h1>
+    <div class="container" >
 
-		</nav>
-</header>
-<h1 class="titulo">FORMULARIO DE CONTACTO</h1>
+      <form class="p-2 m-5">
+        <div class="form row">
+
+          <div class="form-group col-12">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" class="form-control" aria-describedby="nombreCompleto" placeholder="Ingrese su nombre">
+          </div>
+
+          
+          <div class="form-group col-12 ">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+          </div>
+          
+          <div class="form-group col-12 ">
+            <label for="exampleFormControlTextarea1">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value=" "></textarea>
+          </div>
+         
+        </div>
+        <button type="submit" class="btn btn-primary ">Enviar mensaje</button>
+      </form>
+
+      
+      
+    </div>
+    <section style="background-color: #000; color: #fff; padding: 50px 25px;">
+      <div class="row ">
+        <p class="mb-5">Nosotros siempre estamos listos para ayudarte. Hay muchas formas de contactarnos.
+          Puedes escribirnos en línea, llámenos o envíe un correo electrónico. Elija la forma más cómoda para usted</p>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <h6>Dirección: San Pablo</h6>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <h6>Teléfono: 0992629516</h6>
+          
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          
+          <h6>Email: santiagoquirumbay10@gmail.com</h6>
+        </div>
+
+      </div>
+      
+      
+    </section>
+    
+  </main>
+
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>

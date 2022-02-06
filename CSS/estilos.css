@@ -12,6 +12,7 @@ body{
   align-items: center;
   border-bottom: 1px;
   box-shadow: 5px 0 10px rgba(0,0,0,.6);
+  text-align: center;
 }
 
 .menu-oscuro{
@@ -75,16 +76,15 @@ ul.show{
 	top: 65px;
 }
 
-@media screen and (max-width:952px) {
-	#restaurante{
-		font-size: 50%;
-		padding-left: 35px;
-	}
-	.menu_items li a{
-		font-size: 16px;
-	}
+@media screen and (max-width:768px) {
+  .menu-responsivo{
+    background-color: #000;
+  }
 
 }
+
+
+
 @media screen and(max-width:858px) {
 	.menu{
 		height: 65px;

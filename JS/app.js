@@ -1,13 +1,3 @@
-addEventListener('DomcontenLoaded', () => {
-    var btn_menu = document.querySelector('.btn_menu')
-    if (btn_menu) {
-        btn_menu.addEventListener('click'); {
-            const menu_items = document.querySelector('.menu_items')
-            menu_items.clasList.toggle('show')
-
-        }
-    }
-})
 
 const navbar = document.querySelector(".menu");
 
@@ -20,7 +10,15 @@ window.addEventListener('scroll', (e) => {
   if(y <= 10 ) 
     navbar.classList.remove("menu-oscuro");
 
+})
+
+
+const btnMenu = document.querySelector(".btn-menu");
+
+window.addEventListener('click', (e) => {
+  console.log("Mostrando ")
+  navbar.classList.toggle("menu-responsivo")
+
 
 
 })
-
