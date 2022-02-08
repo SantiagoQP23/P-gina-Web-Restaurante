@@ -3,47 +3,49 @@ const categorias = [
     idCategoria: 1,
     nombreCategoria: "Ceviches",
     descripcionCategoria: "",
+    img: "",
+    precio: "",
+
 
   },
   {
     idCategoria: 2,
-    nombreCategoria: "",
+    nombreCategoria: "Pescados",
     descripcionCategoria: "",
-
+    img: "",
+    precio: "",
+    
   },
   {
     idCategoria: 3,
-    nombreCategoria: "",
+    nombreCategoria: "Sopas",
     descripcionCategoria: "",
+    img: "",
+    precio: "",
 
   },
   {
     idCategoria: 4,
-    nombreCategoria: "",
+    nombreCategoria: "Camarón",
     descripcionCategoria: "",
+    img: "",
+    precio: "",
 
   },
   {
     idCategoria: 5,
-    nombreCategoria: "",
+    nombreCategoria: "Arroces",
     descripcionCategoria: "",
+    img: "",
+    precio: "",
 
   },
   {
     idCategoria: 6,
-    nombreCategoria: "",
+    nombreCategoria: "Cazuelas",
     descripcionCategoria: "",
+    img: "",
+    precio: "",
 
-  }
-]
-
-
-const productos = [
-  {
-    idProducto: 1,
-    nombreProducto: "",
-    precioProducto: "",
-    descripcionProducto: "",
-    idCategoria: 1
-  }
+  },
 ]

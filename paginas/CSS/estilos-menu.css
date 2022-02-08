@@ -1,60 +1,40 @@
-h1{
-    text-align: center;
+
+.modal-producto {
+  padding: 15px;
+
 }
 
-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../../recursos/comida1.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    width: 100vw;
-    border: none;
-    text-align: center;
-    background-attachment: fixed;
+.img-producto-modal {
+  
+  height: 400px; 
+  width: 100%;  
+
 }
-.titulo{
-    color: white;
+
+.img-producto-modal .img-producto {
+
+  height: 100%; 
+  width: 100%;  
+  object-fit: cover;
+  border-radius: 5px;
+
+
+}
+
+.producto{
+  cursor: pointer;
+}
+
+.inf-producto {
+  display: flex;
 }
 
 
+.img-inf-producto{
+  border: 1px solid #000;
+  width: 150px;
+  display: block;
 
 
-
-.menu{
-    background-color: transparent;
-    height: 75px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px;
-    box-shadow: 5px 0 10px rgba(0,0,0,.6);
 }
 
-.menu_items{
-    display: flex;
-    list-style: none;
-    margin-right: 30px;
-}
-.menu_items li a{
-	padding: 7px 13px;
-	text-decoration: none;
-	font-size: 18px;
-	display: block;
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-}
-.menu_items li  hover, li.active{
-	background-color: rgba(0, 0, 0, .3);
-	transition: .4s;
-}
-.btn_menu{
-	margin-right: 30px;
-	font-size: 25px;
-	color: white;
-	cursor: pointer;
-	display: none;
-}
-ul.show{
-	top: 65px;
-}
