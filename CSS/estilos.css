@@ -6,7 +6,6 @@ body {
 /* Navegacion */
 
 .menu {
-    margin-top: 50px;
     background-color: transparent;
     width: 100%;
     display: flex;
@@ -155,6 +154,21 @@ ul.show {
 }
 
 .reservaciones {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+
+/* centrar texto de titulo nosotros */
+
+.nosotros>h2 {
+    text-align: center;
+}
+
+
+/* agrega margen de la seccion beneficios */
+
+.beneficios>div {
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
