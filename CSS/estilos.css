@@ -126,8 +126,35 @@ ul.show {
     }
 }
 
+
+/* se centra texto de seccion horario */
+
 .horario {
     margin-top: 5vw;
     margin-bottom: 5vw;
     text-align: center;
+}
+
+
+/* centrar verticalmente textos de categorias */
+
+.categorias>div>div {
+    display: grid;
+    place-items: center;
+}
+
+
+/* modifica textos de seccion reservaciones */
+
+.reservaciones>h2 {
+    text-align: center;
+}
+
+.reservaciones>p {
+    text-align: center;
+}
+
+.reservaciones {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
