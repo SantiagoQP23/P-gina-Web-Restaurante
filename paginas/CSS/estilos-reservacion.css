@@ -1,3 +1,84 @@
-.form-group{
-  margin: 25px 0;
+.form-group {
+    margin: 25px 0;
+}
+
+
+/* Navegacion */
+
+.menu {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+.menu-oscuro {
+    background-color: #000;
+    margin-top: 0px;
+}
+
+
+/* Navegacion */
+
+.menu-items li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* Navegacion */
+
+.menu_items li hover,
+li.active {
+    background-color: rgba(0, 0, 0, .3);
+    transition: .4s;
+}
+
+.categoria {
+    margin: 30px 0;
+}
+
+.caja-img-categoria {
+    height: 400px;
+    width: 100%;
+}
+
+.categorias .img-categoria {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-res {
+    height: 25vw;
+}
+
+.mapa {
+    width: 100%;
+    height: 25vw;
+}
+
+ul.show {
+    top: 65px;
+}
+
+@media screen and (max-width:768px) {
+    .menu-responsivo {
+        background-color: #000;
+    }
+}
+
+
+/* agrega imagen de fondo */
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../recursos/encebollado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }

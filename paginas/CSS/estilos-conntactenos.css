@@ -1,8 +1,72 @@
-body{
-  overflow-x: hidden;
-  margin: 0
+body {
+    overflow-x: hidden;
+    margin: 0
 }
 
-.form-group{
-  margin: 25px 0;
+.form-group {
+    margin: 25px 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Navegacion */
+
+.menu {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+.menu-oscuro {
+    background-color: rgb(87, 85, 85);
+    margin-top: 0px;
+}
+
+
+/* Navegacion */
+
+.menu-items li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* Navegacion */
+
+.menu_items li hover,
+li.active {
+    background-color: rgba(0, 0, 0, .3);
+    transition: .4s;
+}
+
+@media screen and (max-width:768px) {
+    .menu-responsivo {
+        background-color: #000;
+    }
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../recursos/comida.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100vw;
+    text-align: center;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 150px;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #fff;
 }
