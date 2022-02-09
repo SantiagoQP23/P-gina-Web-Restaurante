@@ -1,14 +1,25 @@
-
 .modal-producto {
-  padding: 15px;
-
+    padding: 15px;
 }
 
 h1 {
     text-align: center;
 }
 
-body {
+#call-to-action {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../recursos/seafood.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100vw;
+    text-align: center;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 150px;
+    /* background-attachment: fixed; */
+}
+
+.menu-text {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../recursos/comida1.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -24,38 +35,31 @@ body {
 }
 
 .img-producto-modal {
-  
-  height: 400px; 
-  width: 100%;  
-
+    height: 400px;
+    width: 100%;
 }
 
 .img-producto-modal .img-producto {
-
-  height: 100%; 
-  width: 100%;  
-  object-fit: cover;
-  border-radius: 5px;
-
-
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
-.producto{
-  cursor: pointer;
+.producto {
+    cursor: pointer;
 }
 
 .inf-producto {
-  display: flex;
+    display: flex;
 }
 
-
-.img-inf-producto{
-  border: 1px solid #000;
-  width: 150px;
-  display: block;
-
-
+.img-inf-producto {
+    border: 1px solid #000;
+    width: 150px;
+    display: block;
 }
+
 
 /* Navegacion */
 

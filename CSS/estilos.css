@@ -93,9 +93,9 @@ ul.show {
     .btn_menu {
         display: inline-flex;
     }
-    #restaurante {
+    /* #restaurante {
         font-size: 25%;
-    }
+    } */
     .menu_items {
         position: fixed;
         width: 100vh;
@@ -177,12 +177,22 @@ ul.show {
 #Menu-tit {
     font-family: 'Island Moments', cursive;
     font-family: 'Neonderthaw', cursive;
-    font-size: 10vh;
+    font-size: 7vw;
     font-weight: bold;
 }
 
 .desayunos,
 .piqueos {
     font-family: 'Island Moments', cursive;
-    font-size: 3em;
+    font-size: 7vw;
+}
+
+#beneficios-tit,
+#reservaciones-tit,
+.tit-nosostros {
+    font-family: 'Island Moments', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
 }
