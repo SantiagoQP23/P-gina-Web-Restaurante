@@ -173,3 +173,16 @@ ul.show {
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
+
+#Menu-tit {
+    font-family: 'Island Moments', cursive;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 10vh;
+    font-weight: bold;
+}
+
+.desayunos,
+.piqueos {
+    font-family: 'Island Moments', cursive;
+    font-size: 3em;
+}
