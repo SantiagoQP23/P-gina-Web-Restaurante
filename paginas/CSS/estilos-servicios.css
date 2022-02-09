@@ -17,7 +17,7 @@ body {
 }
 
 .menu-oscuro {
-    background-color: rgb(87, 85, 85);
+    background-color: #000;
     margin-top: 0px;
 }
 
@@ -49,17 +49,20 @@ h1 {
     text-align: center;
 }
 
-body {
+#call-to-action {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../recursos/bandera-comida.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     width: 100vw;
-    border: none;
     text-align: center;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 150px;
     background-attachment: fixed;
+    background-color: none;
 }
 
 .titulo {
-    color: white;
+    color: rgb(0, 0, 0);
 }
