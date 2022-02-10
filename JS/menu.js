@@ -28,7 +28,7 @@ const mostrarModal = (idProducto) => {
       <div class="col-12 col-md-12  col-lg-6">
   
         <div class="img-producto-modal">
-          <img src="https://images-gmi-pmc.edge-generalmills.com/2e80349f-8df5-4903-a8ec-7ed47c590761.jpg"
+          <img src="${p.pathImg}"
             class="img-fluid img-producto" alt="...">
         </div>
   
@@ -64,8 +64,6 @@ const mostrarModal = (idProducto) => {
 </div>  `
 
   modal.innerHTML = modalContent;
-
-  exampleModal.boostrap.show();
 
 }
 

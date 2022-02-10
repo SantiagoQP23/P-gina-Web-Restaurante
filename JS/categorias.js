@@ -3,7 +3,7 @@ const categorias = [
     idCategoria: 1,
     nombreCategoria: "Ceviches",
     descripcionCategoria: "",
-    img: "",
+    pathImg: "",
     precio: "",
 
 
@@ -12,7 +12,7 @@ const categorias = [
     idCategoria: 2,
     nombreCategoria: "Pescados",
     descripcionCategoria: "",
-    img: "",
+    pathImg: "",
     precio: "",
     
   },
@@ -20,7 +20,7 @@ const categorias = [
     idCategoria: 3,
     nombreCategoria: "Sopas",
     descripcionCategoria: "",
-    img: "",
+    pathImg: "",
     precio: "",
 
   },
@@ -28,7 +28,7 @@ const categorias = [
     idCategoria: 4,
     nombreCategoria: "Camarón",
     descripcionCategoria: "",
-    img: "",
+    pathImg: "",
     precio: "",
 
   },
@@ -36,7 +36,7 @@ const categorias = [
     idCategoria: 5,
     nombreCategoria: "Arroces",
     descripcionCategoria: "",
-    img: "",
+    pathImg: "",
     precio: "",
 
   },
@@ -44,7 +44,7 @@ const categorias = [
     idCategoria: 6,
     nombreCategoria: "Cazuelas",
     descripcionCategoria: "",
-    img: "",
+    pathImg: "",
     precio: "",
 
   },
